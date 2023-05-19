@@ -1,0 +1,62 @@
+<app-header></app-header>
+
+<div class="main-content">
+  <div class="header-content">
+    <div class="emp-detail-text">
+      Employee Details
+      <div class="emp-count"></div>
+    </div>
+    <div class="box">
+      <input type="checkbox" id="check" />
+      <div class="search-box">
+        <input placeholder="Search" name="search"/>
+        <label for="check" class="icon">
+          <i class="fas fa-search"></i>
+        </label>
+      </div>
+    </div>
+
+    <a class="add-button" routerLink="/addemployee">
+      <img src="./assets/icons/add-24px.svg" alt="Image"/>Add User</a
+    >
+  </div>
+  <div class="table-main">
+    <table id="table-display" class="table">
+      <tr>
+        <!-- Table Headers -->
+        <th>Profile</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Department</th>
+        <th>Salary</th>
+        <th>Start Date</th>
+        <th>Actions</th>
+      </tr>
+      <tr>
+        <td>
+          <img class="profile" src="" alt="" />
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <div
+            class="dept-label"
+          >
+            
+          </div>
+        </td>
+        <td></td>
+        <td></td>
+        <td>
+          <i
+            class="fas fa-trash-alt"
+          ></i>
+          &#160;
+          <i
+            class="fas fa-edit"
+          ></i>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
